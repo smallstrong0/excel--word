@@ -1,2 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 /.idea
+*.pyc
+.DS_Store
+core/__init__.pyc
+core/ganjiang.pyc
+core/moye.pyc
