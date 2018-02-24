@@ -2,6 +2,7 @@
 simple demo to help friend to deal repetitive work。
 
 # tree
+```
 ├── README.md
 ├── core                            核心文件夹
 │   ├── __init__.py
@@ -19,3 +20,4 @@ simple demo to help friend to deal repetitive work。
 │   └── 赵�\227�天.docx
 ├── test.py                         测试程序主入口
 └── word_test.docx                  测试的word模板
+```
