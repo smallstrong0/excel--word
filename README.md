@@ -21,3 +21,16 @@ simple demo to help friend to deal repetitive work。
 ├── test.py                         测试程序主入口
 └── word_test.docx                  测试的word模板
 ```
+
+# use
+```
+第一步：
+修改excel_test.xlsx里面的数据 一个人一条
+对应word_test.docx里面要填入的数据用{{placeholder_数字}}占位
+Excel里面的一列对应word里面的一个占位，按顺序依次排的。
+输出文件在export文件夹默认命名是Excel里面第一列的输入内容。
+第二步：
+进入项目文件夹 cd (这个文件夹拖进终端)
+source ./ENV/bin/activate （目的是默认使用我提供的Python环境）
+python test.py   （运行程序）
+```
